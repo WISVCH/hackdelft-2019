@@ -2,10 +2,10 @@ language: generic
 services:
 - docker
 script:
-- docker build --no-cache --pull -t quay.io/wisvch/hackdelft-2018:$TRAVIS_BUILD_NUMBER .
+- docker build --no-cache --pull -t quay.io/wisvch/hackdelft-2019:$TRAVIS_BUILD_NUMBER .
 deploy:
   provider: script
-  script: sh -c 'docker login -u "$QUAY_USERNAME" -p "$QUAY_PASSWORD" quay.io; docker push quay.io/wisvch/hackdelft-2018:$TRAVIS_BUILD_NUMBER'
+  script: sh -c 'docker login -u "$QUAY_USERNAME" -p "$QUAY_PASSWORD" quay.io; docker push quay.io/wisvch/hackdelft-2019:$TRAVIS_BUILD_NUMBER'
   on:
     branch: master
 notifications:
