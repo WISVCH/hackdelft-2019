@@ -6,8 +6,7 @@ const faq = [
   },
   {
     title: 'How do applications work?',
-    body:
-      "Registrations are now closed! If you've signed up we'll get in touch soon!"
+    body: 'Registrations are still closed! They will be open shortly'
   },
   {
     title: "What if I've never been to a hackathon before?",
@@ -19,10 +18,10 @@ const faq = [
     body:
       'Nothing! HackDelft is completely free, thanks to our amazing partners.'
   },
-  {
-    title: 'Can I request travel reimbursement?',
-    body: 'We do not provide travel reimbursements.'
-  },
+  // {
+  //   title: 'Can I request travel reimbursement?',
+  //   body: 'We do not provide travel reimbursements.'
+  // },
   {
     title: 'What should I bring to HackDelft?',
     body:
@@ -31,7 +30,7 @@ const faq = [
   {
     title: 'Are you going to feed me?',
     body:
-      'Yes. We’ll provide a dinner on Saturday (April 28), as well as breakfast and lunch on Sunday (April 29). There’ll also be plenty of snacks and drinks, of course!'
+      'Yes. We’ll provide a dinner on Saturday, as well as breakfast and lunch on Sunday. There’ll also be plenty of snacks and drinks, of course!'
   },
   {
     title: 'Can I sleep?',
@@ -53,18 +52,18 @@ const faq = [
     body:
       'Once you’ve finished your project, there’ll be an expo. The judges will walk around, and you’ll have a short (think two-three minute) window to pitch to them. Based on these pitches, the judges will pick a few teams to pitch on the finalists stage. There, you’ll again give a short pitch and answer some questions. Finally the judges will retire and announce the case-specific winners and grand prize winner.'
   },
-  {
-    title: 'Do you have a code of conduct?',
-    body: 'Just be nice to each other! If you want to read the boring stuff:',
-    href: 'http://static.mlh.io/docs/mlh-code-of-conduct.pdf',
-    hrefText: 'MLH: Code of conduct'
-  },
-  {
-    title: 'What data do you share?',
-    body: 'We share some of your registration data with MLH.',
-    href: 'https://mlh.io/privacy',
-    hrefText: 'MLH: Data Sharing Provision'
-  },
+  // {
+  //   title: 'Do you have a code of conduct?',
+  //   body: 'Just be nice to each other! If you want to read the boring stuff:',
+  //   href: 'http://static.mlh.io/docs/mlh-code-of-conduct.pdf',
+  //   hrefText: 'MLH: Code of conduct'
+  // },
+  // {
+  //   title: 'What data do you share?',
+  //   body: 'We share some of your registration data with MLH.',
+  //   href: 'https://mlh.io/privacy',
+  //   hrefText: 'MLH: Data Sharing Provision'
+  // },
   {
     title: 'Where is HackDelft?',
     body:
