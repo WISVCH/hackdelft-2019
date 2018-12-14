@@ -1,6 +1,6 @@
 # HackDelft-website
 
-Version 2018
+Version (semi) 2019
 
 ## Create React App
 
