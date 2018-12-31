@@ -1,0 +1,26 @@
+.Map-container {
+  position: relative;
+  margin: 2em -2em -4em;
+}
+
+.Map-container .Section-border {
+  top: 0;
+  height: 2em;
+
+  fill: #f9f9f9;
+
+  transform: scale(1, -1);
+}
+
+.Map {
+  display: block;
+  width: 100vw;
+  height: 40vw;
+  border: none;
+}
+
+@media all and (min-width: 481px) {
+  .Map-container {
+    margin: 4em -4em -8em;
+  }
+}

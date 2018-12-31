@@ -1,0 +1,57 @@
+.Tickets {
+  margin: 0 -.5em 2em;
+}
+
+.TicketOption {
+  overflow: hidden;
+
+  display: inline-block;
+  width: calc(25% - 1em);
+  margin: 0 .5em 1em;
+
+  text-align: center;
+
+  transition: box-shadow .4s ease-out;
+}
+
+.TicketOption:hover {
+  box-shadow: 0 .4em 1em rgba(0, 0, 0, .4);
+}
+
+.TicketOption-image {
+  position: relative;
+  height: 8em;
+  margin: 1em auto 0;
+
+  background: no-repeat center / contain;
+}
+
+.TicketOption-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5em;
+}
+
+.TicketOption-title {
+  font-size: 1.5em;
+}
+
+.TicketOption-price {
+  margin-bottom: 1em;
+
+  font-size: 2em;
+  color: #f44336;
+}
+
+.TicketOption-footer {
+  background-color: #fef4f4;
+}
+
+.TicketOption-button {
+  margin: 1em 0;
+}
+
+@media all and (max-width: 720px) {
+  .TicketOption { width: calc(50% - 1em); }
+}

@@ -1,0 +1,20 @@
+
+@media all and (max-width: 480px) {
+  .Person {
+    font-size: .8em;
+  }
+
+  .Person:not(.horizontal) .Person-social {
+    display: block;
+    margin: auto;
+  }
+  .Person:not(.horizontal) .Person-info {
+    display: block;
+    width: auto;
+  }
+
+  .Person:not(.horizontal) .Person-name,
+  .Person:not(.horizontal) .Person-title {
+    text-align: center;
+  }
+}

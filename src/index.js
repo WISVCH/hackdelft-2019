@@ -1,18 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-//import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { hydrate, render } from 'react-dom'
+import { Provider } from 'react-redux'
 
-import { injectGlobal } from 'styled-components';
+import createHistory from 'history/createBrowserHistory'
+import { ConnectedRouter } from 'react-router-redux'
+import registerServiceWorker from './registerServiceWorker'
+import configureStore from './store'
 
-injectGlobal`
-  @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500");
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-  }
-`;
+import Translations from 'containers/Translations'
+import Theme from 'containers/Theme'
+import App from 'containers/App'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-//registerServiceWorker();
+const history = createHistory({ basename: "/2018" })
+const initialState = {
+	router: { location: history.location }
+}
+const store = configureStore(initialState, history)
+
+const Root = (
+	<Provider store={store}>
+		<Translations>
+		  <Theme>
+				<ConnectedRouter history={history}>
+		      <App/>
+				</ConnectedRouter>
+			</Theme>
+		</Translations>
+	</Provider>
+)
+const root = document.getElementById('root')
+
+if (root.hasChildNodes()) {
+	hydrate(Root, root)
+} else {
+	render(Root, root)
+}
+
+registerServiceWorker()
