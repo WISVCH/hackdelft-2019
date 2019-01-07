@@ -77,7 +77,8 @@ const faq = [
   },
   {
     title: 'What if I have more questions?',
-    body: 'Send us a message on facebook!',
+    body:
+      'Send us a message on Facebook or send us an email via hackdelft@ch.tudelft.nl!',
     href: 'https://www.facebook.com/hackdelft',
     hrefText: 'Visit Facebook Page'
   }
