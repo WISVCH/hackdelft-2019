@@ -6,7 +6,11 @@ const faq = [
   },
   {
     title: 'How do applications work?',
-    body: 'Registrations are still closed! They will be open shortly'
+    body:
+      'You can register now by filling out the registration form! We’ll get in touch to let you know whether you’ve been invited to attend.',
+    href:
+      'https://docs.google.com/forms/d/e/1FAIpQLSclL3WjOS6_0F1iv5gZJgbVCxZ2QwZR2QnFGZlKEwMaJcciYw/viewform',
+    hrefText: 'Register now!'
   },
   {
     title: "What if I've never been to a hackathon before?",
