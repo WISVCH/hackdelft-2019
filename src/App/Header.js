@@ -12,7 +12,7 @@ const styles = {
   whiteButton: {
     backgroundColor: 'white',
     color: 'rgb(104, 79, 163)',
-    fontSize: '18px'
+    fontSize: '14px'
   }
 };
 
@@ -348,11 +348,11 @@ class Header extends Component {
         <RegisterContainer>
           <Button
             variant="raised"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSclL3WjOS6_0F1iv5gZJgbVCxZ2QwZR2QnFGZlKEwMaJcciYw/viewform"
+            disabled
             className={this.props.classes.whiteButton}
             target="_blank"
           >
-            Register now!
+            Applications closed!
           </Button>
         </RegisterContainer>
       </Wrapper>
