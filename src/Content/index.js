@@ -16,16 +16,16 @@ const content = [
     body:
       'HackDelft will be taking place in the weekend of May 11th and 12th 2019.'
   },
-  // {
-  //   type: 'Calendar',
-  //   title: 'Schedule',
-  //   items: planning
-  // },
-  // {
-  //   type: 'Promo',
-  //   title: 'Our partners',
-  //   items: partners
-  // },
+  {
+    type: 'Calendar',
+    title: 'Schedule',
+    items: planning
+  },
+  {
+    type: 'Promo',
+    title: 'Our partners',
+    items: partners
+  },
   // {
   //   type: 'Promo',
   //   title: 'Our supporting partners',

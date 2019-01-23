@@ -36,7 +36,8 @@ const dropperContent = [
   'eemcs',
   'maker',
   'hackathon',
-  'MLH',
+  // 'MLH',
+  'X',
   'bug'
 ];
 
