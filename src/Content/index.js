@@ -21,11 +21,11 @@ const content = [
     title: 'Schedule',
     items: planning
   },
-  // {
-  //   type: 'Promo',
-  //   title: 'Our partners',
-  //   items: partners
-  // },
+  {
+    type: 'Promo',
+    title: 'Our partners',
+    items: partners
+  },
   // {
   //   type: 'Promo',
   //   title: 'Our supporting partners',
