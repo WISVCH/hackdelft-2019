@@ -6,7 +6,11 @@ const faq = [
   },
   {
     title: 'How do applications work?',
-    body: 'Registrations are still closed! They will be open shortly'
+    body:
+      'You can register now by filling out the registration form! We’ll get in touch to let you know whether you’ve been invited to attend.',
+    href:
+      'https://docs.google.com/forms/d/e/1FAIpQLSclL3WjOS6_0F1iv5gZJgbVCxZ2QwZR2QnFGZlKEwMaJcciYw/viewform',
+    hrefText: 'Register now!'
   },
   {
     title: "What if I've never been to a hackathon before?",
@@ -73,7 +77,8 @@ const faq = [
   },
   {
     title: 'What if I have more questions?',
-    body: 'Send us a message on facebook!',
+    body:
+      'Send us a message on Facebook or send us an email via hackdelft@ch.tudelft.nl!',
     href: 'https://www.facebook.com/hackdelft',
     hrefText: 'Visit Facebook Page'
   }
