@@ -56,18 +56,24 @@ const faq = [
     body:
       'Once you’ve finished your project, there’ll be an expo. The judges will walk around, and you’ll have a short (think two-three minute) window to pitch to them. Based on these pitches, the judges will pick a few teams to pitch on the finalists stage. There, you’ll again give a short pitch and answer some questions. Finally the judges will retire and announce the case-specific winners and grand prize winner.'
   },
-  // {
-  //   title: 'Do you have a code of conduct?',
-  //   body: 'Just be nice to each other! If you want to read the boring stuff:',
-  //   href: 'http://static.mlh.io/docs/mlh-code-of-conduct.pdf',
-  //   hrefText: 'MLH: Code of conduct'
-  // },
-  // {
-  //   title: 'What data do you share?',
-  //   body: 'We share some of your registration data with MLH.',
-  //   href: 'https://mlh.io/privacy',
-  //   hrefText: 'MLH: Data Sharing Provision'
-  // },
+  {
+    title: 'Do you have a code of conduct?',
+    body: 'Just be nice to each other! If you want to read the boring stuff:',
+    href: 'http://static.mlh.io/docs/mlh-code-of-conduct.pdf',
+    hrefText: 'MLH: Code of conduct'
+  },
+  {
+    title: 'What data do you share?',
+    body: 'We share some of your registration data with MLH.',
+    href: 'https://mlh.io/privacy',
+    hrefText: 'MLH: Data Sharing Provision'
+  },
+  {
+    title: 'What and how do you keep of my data?',
+    body: 'You can read the full privacy statement of our study association Christiaan Huygens if you click the link',
+    href: 'https://ch.tudelft.nl/privacy-statement/',
+    hrefText: 'CH: Privacy Statement'
+  },
   {
     title: 'Where is HackDelft?',
     body:
