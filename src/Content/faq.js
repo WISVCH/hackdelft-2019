@@ -7,7 +7,8 @@ const faq = [
   {
     title: 'How do applications work?',
     body:
-      'You can register now by filling out the registration form! We’ll get in touch to let you know whether you’ve been invited to attend.',
+      'You can register now by filling out the registration form. Once you have done that, you are all set! ' +
+      'We will keep you updated on and send you details of the event through the e-mail address you have registered with.',
     href:
       'https://docs.google.com/forms/d/e/1FAIpQLSclL3WjOS6_0F1iv5gZJgbVCxZ2QwZR2QnFGZlKEwMaJcciYw/viewform',
     hrefText: 'Register now!'
@@ -26,6 +27,11 @@ const faq = [
   //   title: 'Can I request travel reimbursement?',
   //   body: 'We do not provide travel reimbursements.'
   // },
+  {
+    title: 'Do you provide any travel reimbursement?',
+    body:
+      'Unfortunately we do not provide any type of travel reimbursement. We hope to see you at the event regardless!'
+  },
   {
     title: 'What should I bring to HackDelft?',
     body:
@@ -70,7 +76,8 @@ const faq = [
   },
   {
     title: 'What and how do you keep of my data?',
-    body: 'You can read the full privacy statement of our study association Christiaan Huygens if you click the link',
+    body:
+      'You can read the full privacy statement of our study association Christiaan Huygens if you click the link',
     href: 'https://ch.tudelft.nl/privacy-statement/',
     hrefText: 'CH: Privacy Statement'
   },
