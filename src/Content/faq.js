@@ -28,6 +28,11 @@ const faq = [
   //   body: 'We do not provide travel reimbursements.'
   // },
   {
+    title: 'I need a VISA to come over, what do I need to do?',
+    body:
+      'Please email hackdelft@ch.tudelft.nl with your: Full name as stated on your passport, your full address and your passport number. We will get in touch to help you get a VISA to visit HackDelft!'
+  },
+  {
     title: 'Do you provide any travel reimbursement?',
     body:
       'Unfortunately we do not provide any type of travel reimbursement. We hope to see you at the event regardless!'
