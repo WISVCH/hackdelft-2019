@@ -30,7 +30,7 @@ const faq = [
   {
     title: 'I need a VISA to come over, what do I need to do?',
     body:
-      'Please email hackdelft@ch.tudelft.nl with your: Full name as stated on your passport, your full address and your passport number. We will get in touch to help you get a VISA to visit HackDelft!'
+      'Please email hackdelft@ch.tudelft.nl with your: Full name as stated on your passport, your date of birth, your full address and your passport number. We will get in touch to help you get a VISA to visit HackDelft!'
   },
   {
     title: 'Do you provide any travel reimbursement?',
