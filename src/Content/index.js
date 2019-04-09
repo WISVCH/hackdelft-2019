@@ -26,11 +26,11 @@ const content = [
     title: 'Our partners',
     items: partners
   },
-  // {
-  //   type: 'Promo',
-  //   title: 'Our supporting partners',
-  //   items: supporting
-  // },
+  {
+    type: 'Promo',
+    title: 'Our supporting partners',
+    items: supporting
+  },
 
   { type: 'Collection', title: 'Frequently Asked Questions', items: faq }
 ];
