@@ -14,6 +14,11 @@ const supporting = [
 //     title: 'Sports and Culture - TU Delft',
 //     href: 'https://www.tudelft.nl/x/'
 //   },
+     {
+     asset: 'assets/stud.png',
+     title: 'Stud',
+     href: 'https://www.stud.nl/'
+    },
     {
     asset: 'assets/sticker-mule.png',
     title: 'Sticker Mule',
