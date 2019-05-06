@@ -19,6 +19,10 @@ const supporting = [
      title: 'Stud',
      href: 'https://www.stud.nl/'
     },
+     asset: 'assets/VikiPavlic Logo-39.png',
+     title: 'Essentik',
+     href: 'https://www.essentik.com/'
+    },
     {
     asset: 'assets/sticker-mule.png',
     title: 'Sticker Mule',
