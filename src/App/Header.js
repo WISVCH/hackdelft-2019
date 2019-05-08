@@ -352,7 +352,7 @@ class Header extends Component {
             className={this.props.classes.whiteButton}
             target="_blank"
           >
-            Register closed
+            Registration closed
           </Button>
         </RegisterContainer>
       </Wrapper>
