@@ -31,7 +31,7 @@ const planning = [
   {
     datetime: '2019-05-11T14:00:00+02:00',
     title: 'Group forming',
-    duration: 30 * minutes,
+    duration: 30 * minute,
     color: colors.purple
   },
   {
