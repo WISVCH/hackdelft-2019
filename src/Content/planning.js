@@ -17,25 +17,25 @@ const colors = {
 
 const planning = [
   {
-    datetime: '2019-05-11T12:00:00+02:00',
+    datetime: '2019-05-11T11:00:00+02:00',
     title: 'Registration',
-    duration: 1.5 * hour,
+    duration: 1 * hour,
     color: colors.yellow
   },
   {
-    datetime: '2019-05-11T13:30:00+02:00',
+    datetime: '2019-05-11T12:30:00+02:00',
     title: 'Opening ceremony',
-    duration: 30 * minute,
+    duration: 75 * minute,
     color: colors.lightBlue
   },
   {
     datetime: '2019-05-11T14:00:00+02:00',
-    title: 'Workshops and group forming',
-    duration: 2 * hour,
+    title: 'Group forming',
+    duration: 30 * minutes,
     color: colors.purple
   },
   {
-    datetime: '2019-05-11T16:00:00+02:00',
+    datetime: '2019-05-11T14:30:00+02:00',
     title: 'Hackathon',
     duration: day,
     color: colors.green
@@ -69,7 +69,14 @@ const planning = [
     mini: true
   },
   {
-    datetime: '2019-05-12T12:00:00+02:00',
+    datetime: '2019-05-12T10:00:00+02:00',
+    title: 'Pitch workshop',
+    duration: 1 * hour,
+    color: colors.red,
+    mini: true
+  },
+  {
+    datetime: '2019-05-12T12:30:00+02:00',
     title: 'Lunch served',
     duration: 1.5 * hour,
     color: colors.orange,
@@ -82,7 +89,7 @@ const planning = [
   //   color: colors.yellow
   // },
   {
-    datetime: '2019-05-12T16:00:00+02:00',
+    datetime: '2019-05-12T14:00:00+02:00',
     title: 'Finalists, winner announcement and prizes!',
     duration: 3 * hour,
     color: colors.lightBlue
