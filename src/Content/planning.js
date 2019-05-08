@@ -23,15 +23,15 @@ const planning = [
     color: colors.yellow
   },
   {
-    datetime: '2019-05-11T12:30:00+02:00',
+    datetime: '2019-05-11T12:00:00+02:00',
     title: 'Opening ceremony',
-    duration: 75 * minute,
+    duration: 90 * minute,
     color: colors.lightBlue
   },
   {
-    datetime: '2019-05-11T14:00:00+02:00',
+    datetime: '2019-05-11T13:30:00+02:00',
     title: 'Group forming',
-    duration: 30 * minute,
+    duration: 60 * minute,
     color: colors.purple
   },
   {
@@ -89,7 +89,7 @@ const planning = [
   //   color: colors.yellow
   // },
   {
-    datetime: '2019-05-12T14:00:00+02:00',
+    datetime: '2019-05-12T14:30:00+02:00',
     title: 'Finalists, winner announcement and prizes!',
     duration: 3 * hour,
     color: colors.lightBlue
