@@ -54,13 +54,13 @@ const planning = [
     color: colors.orange,
     mini: true
   },
-  // {
-  //   datetime: '2018-04-28T20:30:00+02:00',
-  //   title: 'Cup-Stacking',
-  //   duration: hour,
-  //   color: colors.red,
-  //   mini: true
-  // },
+  {
+    datetime: '2019-05-11T20:30:00+02:00',
+    title: 'Workshop Code in the Dark',
+    duration: hour,
+    color: colors.red,
+    mini: true
+  },
   {
     datetime: '2019-05-12T07:30:00+02:00',
     title: 'Breakfast served',
